@@ -1,1 +1,250 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zehra Ilgin | Portfolio</title>
+
+  <!-- Fonts (editorial + clean) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Paper background + grain -->
+  <div class="paper">
+    <div class="grain"></div>
+  </div>
+
+  <!-- Sticky nav -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="stamp">ZI</span>
+      <span class="brand-text">Zehra Ilgin</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a class="btn" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <p class="kicker">Media Informatics • Web • Visual Computing</p>
+
+        <h1>
+          Hi. Since you’re here — <span class="pink">let me be your</span><br/>
+          <span class="underline">tour guide</span>.
+        </h1>
+
+        <p class="sub">
+          I’m Zehra, a Media Informatics student in Berlin. I like building
+          interactive web experiences and visual computing projects that feel
+          clean, creative, and human.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">See projects</a>
+          <a class="btn ghost" href="#contact">Say hi</a>
+        </div>
+
+        <div class="chips">
+          <span>TypeScript</span>
+          <span>SwiftUI</span>
+          <span>SQL</span>
+          <span>Python</span>
+          <span>OpenGL/GLSL</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="collage">
+          <div class="polaroid tilt1">
+            <div class="photo ph1" aria-hidden="true"></div>
+            <div class="caption">featured / placeholder</div>
+          </div>
+
+          <div class="note tilt2">
+            <p class="hand">“It’s not just coding — it’s vibing with visuals.”</p>
+            <p class="small">— you, soon 😄</p>
+          </div>
+
+          <div class="polaroid tilt3">
+            <div class="photo ph2" aria-hidden="true"></div>
+            <div class="caption">UI / mock / placeholder</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">3 highlighted pieces — replace the placeholders with real screenshots later.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card tiltA">
+          <div class="card-top">
+            <span class="tag">Web</span>
+            <span class="date">2026</span>
+          </div>
+          <h3>Web Technology Project</h3>
+          <p>
+            Interactive web app with responsive UI, form validation, and basic data handling.
+          </p>
+          <div class="thumb th1" aria-hidden="true"></div>
+          <div class="meta">
+            <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JS / TS</span>
+          </div>
+          <div class="links">
+            <a href="#" aria-disabled="true">Live</a>
+            <a href="#" aria-disabled="true">Code</a>
+          </div>
+        </article>
+
+        <article class="card tiltB">
+          <div class="card-top">
+            <span class="tag">iOS</span>
+            <span class="date">2026</span>
+          </div>
+          <h3>SwiftUI App Concept</h3>
+          <p>
+            SwiftUI prototype exploring navigation, state management, and reusable UI components.
+          </p>
+          <div class="thumb th2" aria-hidden="true"></div>
+          <div class="meta">
+            <span class="pill">Swift</span><span class="pill">SwiftUI</span><span class="pill">UI</span>
+          </div>
+          <div class="links">
+            <a href="#" aria-disabled="true">Demo</a>
+            <a href="#" aria-disabled="true">Code</a>
+          </div>
+        </article>
+
+        <article class="card tiltC">
+          <div class="card-top">
+            <span class="tag">Visual</span>
+            <span class="date">2026</span>
+          </div>
+          <h3>Visual Computing Study</h3>
+          <p>
+            Small experiments in image processing / graphics fundamentals (filters, transforms, shaders).
+          </p>
+          <div class="thumb th3" aria-hidden="true"></div>
+          <div class="meta">
+            <span class="pill">Python</span><span class="pill">Image Proc.</span><span class="pill">OpenGL/GLSL</span>
+          </div>
+          <div class="links">
+            <a href="#" aria-disabled="true">Write-up</a>
+            <a href="#" aria-disabled="true">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>About</h2>
+        <p class="muted">Short + sweet, like an editorial caption.</p>
+      </div>
+
+      <div class="two">
+        <div class="card wide">
+          <h3>What I like building</h3>
+          <ul class="list">
+            <li>Clean, user-friendly interfaces with personality</li>
+            <li>Web experiences that feel fast and intuitive</li>
+            <li>Visual computing projects: graphics, image processing, 3D</li>
+          </ul>
+        </div>
+
+        <div class="note wide">
+          <p class="hand">Currently open to internships in:</p>
+          <p><strong>Web Development • UI/UX • Visual Computing</strong></p>
+          <p class="small muted">Berlin / EU / international</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="muted">International-friendly levels (Proficient / Intermediate / Basic).</p>
+      </div>
+
+      <div class="skills">
+        <div class="card">
+          <h3>Technical</h3>
+          <ul class="list">
+            <li><strong>Proficient:</strong> HTML/CSS, VS Code, MS Office</li>
+            <li><strong>Intermediate:</strong> Java, Python, JavaScript, SQL</li>
+            <li><strong>Basic–Intermediate:</strong> TypeScript, Swift, SwiftUI</li>
+            <li><strong>Basic:</strong> OpenGL, GLSL, Maya</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Languages</h3>
+          <ul class="list">
+            <li>German — Native</li>
+            <li>English — C1 (CEFR)</li>
+            <li>Turkish — C1 (CEFR)</li>
+            <li>Albanian — B1 (CEFR)</li>
+            <li>French — A2 (CEFR)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Methods</h3>
+          <ul class="list">
+            <li>Responsive web design principles</li>
+            <li>REST API integration (basic)</li>
+            <li>SQL data modeling & queries</li>
+            <li>Image processing in Python</li>
+            <li>Shader programming basics (GLSL)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Add LinkedIn + CV download later.</p>
+      </div>
+
+      <div class="card contact">
+        <div>
+          <p><strong>Email</strong></p>
+          <p><a href="mailto:zehrai@hotmail.de">zehrai@hotmail.de</a></p>
+        </div>
+        <div>
+          <p><strong>GitHub</strong></p>
+          <p><a href="https://github.com/zehraign">github.com/zehraign</a></p>
+        </div>
+        <div>
+          <p><strong>Location</strong></p>
+          <p>Berlin, Germany</p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>© 2026 Zehra Ilgin — made with ✨ and a little grain.</p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
