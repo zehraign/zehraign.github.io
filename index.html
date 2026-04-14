@@ -1,1 +1,118 @@
-Hello World
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zehra Ilgin | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Sora:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="glow glow-left"></div>
+    <div class="glow glow-right"></div>
+    <div class="glow glow-bottom"></div>
+    <div class="grain"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo">zehra<span>.</span></a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="hero-eyebrow">Welcome to my Portfolio</p>
+            <h1 class="hero-title">
+              Zehra <span>Ilgin</span>
+            </h1>
+            <p class="hero-text">
+              Media and Computing student based in Berlin, focused on web development, creative technology, and user-centered digital experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn ghost" href="#skills">Explore Skills</a>
+            </div>
+            <div class="hero-meta">
+              <span>HTW Berlin</span>
+              <span>Web · Graphics · Creative Tech</span>
+              <span>Berlin</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-card">
+              <img
+                class="nori-gif"
+                id="nori-gif"
+                src="images/nori-still.png"
+                data-static="images/nori-still.png"
+                data-animated="images/nori.gif"
+                alt="Nori axolotl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--interlude">
+        <div class="container">
+          <div class="flip-line reveal">
+            <span>I CONSTANTLY TRY TO</span>
+            <span class="flip-word" id="flip-word">IMPROVE</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section--tint">
+        <div class="container">
+          <div class="section-title reveal">
+            <p class="eyebrow">Skills &amp; Technologies</p>
+            <h2>What I use to build.</h2>
+            <p class="subtitle">
+              A curated toolkit across web, graphics, and systems — organized by focus area.
+            </p>
+          </div>
+          <div class="skills-grid skills-groups" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section--tint">
+        <div class="container">
+          <div class="section-title reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+            <p class="subtitle">
+              A mix of one featured team project and selected coursework.
+            </p>
+          </div>
+          <div class="projects-featured-header">Featured Project</div>
+          <div class="projects-featured" id="project-featured"></div>
+          <div class="projects-subhead">Coursework</div>
+          <div class="projects-grid projects-grid--compact" id="projects-grid"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 Zehra Ilgin</p>
+      </div>
+    </footer>
+
+    <script src="data/data.js"></script>
+    <script src="data/main.js"></script>
+  </body>
+</html>
