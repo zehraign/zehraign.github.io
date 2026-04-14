@@ -82,7 +82,7 @@ const projects = [
     title: "Web Engineering Labs ",
     description:
       "A collection of hands-on lab projects exploring modern web development, from static websites to fullstack applications. Technologies include Express, Next.js, REST APIs, and Docker. Topics such as server-side rendering, data persistence, testing, and CI/CD were applied in practical exercises. A prototype of a virtual bookshelf was developed to experiment with fullstack integration and data handling.",
-    tags: ["JavaScript", "Node.js", "Express", "Next.js", "Docker", "REST API", "Testing", "CI/CD"],
+    tags: ["JavaScript", "Node.js", "Express", "Next.js", "Docker", "REST API"],
     live: "#",
     github: "https://github.com/zehraign/virtual-bookshelf-next",
     note: "Coursework collection",
